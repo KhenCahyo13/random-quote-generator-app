@@ -1,0 +1,52 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-slate-100 font-poppins;
+}
+
+.quote-title {
+  @apply text-center font-semibold text-xl mt-[40%] md:text-2xl md:mt-[40%] lg:mt-[10%];
+}
+
+.quote-box {
+  @apply bg-gray-800 p-4 mx-6 mt-6 rounded-md shadow-lg min-h-fit md:w-[32rem] md:mx-auto;
+}
+
+.quote-text {
+  @apply font-medium text-lg italic md:text-2xl;
+}
+
+.quote-author {
+  @apply italic mt-2 flex justify-end md:mt-4 md:text-lg;
+}
+
+.button {
+  @apply mt-6 flex justify-between;
+}
+
+.get-quote {
+  @apply bg-indigo-600 px-4 py-2 rounded-md shadow-lg text-sm hover:bg-indigo-700 hover:scale-105 transition duration-300 md:text-lg
+}
+
+.facebook {
+  @apply text-3xl mr-4 hover:text-indigo-600 transition duration-300 md:text-4xl
+}
+
+.github {
+  @apply text-3xl hover:text-indigo-600 transition duration-300 md:text-4xl
+}
+
+.created-by {
+  @apply text-center text-sm italic mt-4 md:text-lg
+}
+
+.references {
+  @apply text-center text-sm mt-4 md:text-lg
+}
+
+
